@@ -18,84 +18,85 @@ html {
    background-color: var(--Violet);
    background-image: url("../img/bg-desktop.svg");
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size:contain;
+  
+   
    
    
     }
 
     .container{
-     
      display: flex;
      align-items: center;
-    
+     justify-content: center;
+     height: 100vh;
+     
       
 
     }
     
       .containers{
-        margin: 0px auto;
-       
-        height: 600px;
-        width: 1200px;
-        display: flex;
-       
-      
-
+         display: flex;
+         width: 90%;
+        /*background-color: red;*/
       }
 
       .container1{
       
-       width: 70%;
+       width: 60%;
        
        
       }
       .container1-logo{
-       margin-top: 3rem;
-        width: 20rem;
-        
+       margin-top: 5rem;
+       /*background-color: black;*/
+       width:40% ;
+      }
+
+      .container1-img{
+     width: 75%;
+     margin-top: 1rem;
       }
       .container1-mockup{
        
         width:100%;
-        
+        /*background-color: red;*//*ayuda para ver los contenedores*/
        
         
 
       }
       .mockup-img{
-        margin-top: 4rem;
-        width: 67%;
+        margin-top: 6rem;
+        width: 80%;
       }
       .container2{
-        margin-left: -21rem;
+        
         width: 50%;
-       
+       /*background-color: aquamarine;*/
        font-family: 'Poppins', sans-serif;
        color:white;
-       
-       height: 600px;
        width: 40%;
-       
+       margin-left: -10rem;
       
       }
       .container2-title{
-        margin-top: 18rem;
+        margin-top: 20rem;
         width: 70%;
-        height: 7rem;
-        
-        font-size: 25px;
+        height: 8rem;
+        /*background-color: black;*/
+        font-size: 28px;
       }
       .container2-paragraph{
         width: 85%;
         height: 6rem;
         font-size: 13px;
-        margin-top: 2rem;
+        
        
       
       }
       
       .container2-button{
-        margin-top: -2.5rem;
+        margin-top: -2rem;
         
         width: 50%;
         height: 9rem;
@@ -125,10 +126,10 @@ html {
 width: 85%;
 height: 7rem;
 display: flex;
-margin-top: 10rem;
+margin-top: 14rem;
 align-items: center;
 justify-content: flex-end;
-
+/*background-color: brown;*/
 
 
       }
@@ -159,6 +160,10 @@ justify-content: flex-end;
           background-size: 100%;
           background-image:url("../img/bg-mobile.svg");
         }
+       .container{
+        height: 100%;
+       /* background-color: brown;*/ /*ayuda para visualizar*/
+       }
       
         .containers{
         display: flex;
