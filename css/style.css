@@ -13,29 +13,30 @@ html {
 
  
   body{
-    
+   
     font-family: 'Open Sans', sans-serif;
    background-color: var(--Violet);
-   background-image: url("../img/bg-desktop.svg");
+   background-image: url("../img/bg-desktop.svg") ;
    background-repeat: no-repeat;
-   background-size:contain;
   
-   
-   
-   
-    }
+ background-size: 80% 100%;
+ 
+   }
+  
 
     .container{
+      
      display: flex;
      align-items: center;
      justify-content: center;
      height: 100vh;
-     
+     /*background-color: lightcoral;*/
       
 
     }
     
       .containers{
+       
          display: flex;
          width: 90%;
         /*background-color: red;*/
@@ -81,7 +82,7 @@ html {
       }
       .container2-title{
         margin-top: 20rem;
-        width: 70%;
+        width: 90%;
         height: 8rem;
         /*background-color: black;*/
         font-size: 28px;
@@ -153,7 +154,7 @@ justify-content: flex-end;
         color: var(--Soft-Magenta);
         border-color: var(--Soft-Magenta);
       }
-
+/*movil*/
       @media (max-width: 1000px) {
         body{
           background-position: left -8vw;
@@ -161,8 +162,8 @@ justify-content: flex-end;
           background-image:url("../img/bg-mobile.svg");
         }
        .container{
-        height: 100%;
-       /* background-color: brown;*/ /*ayuda para visualizar*/
+       height: 100%;
+       /*background-color: brown; *//*ayuda para visualizar*/
        }
       
         .containers{
@@ -171,7 +172,7 @@ justify-content: flex-end;
         align-items: center;
 /*background-color: red;*/ /*guia para ver el contenedor*/
         width: 450px;
-        height: 100%;
+        
 
 
         }
